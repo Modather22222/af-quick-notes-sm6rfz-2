@@ -1,0 +1,21 @@
+name: quick_notes
+description: >-
+  A minimalist sticky-note app that launches into a text field, autosaves
+  notes locally as you type, and lists past notes for browsing.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
